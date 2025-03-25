@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로또 번호 생성기</title>
+    <link rel="stylesheet" href="lotto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="title">로또 번호 생성기</span>
+            <span class="subtitle">행운의 번호를 생성해보세요!</span>
+        </header>
+    
+
+        <div class="mainbox">
+            <div class="create-number">
+                <span class="numtitle">번호 생성</span>
+                <div class="numbox">
+                    <span class="num1">?</span>
+                    <span class="num2">?</span>
+                    <span class="num3">?</span>
+                    <span class="num4">?</span>
+                    <span class="num5">?</span>
+                    <span class="num6">?</span>
+                </div>
+                <button>번호 생성하기</button>
+            </div>
+
+            <div class="buylotto">
+                
+                <span class="buytitle">로또 구매하기</span>
+                <form>
+                    <label for="amount">구매 수량: </label>
+                    <input type="number" id="amount">
+                </form>
+                
+                <p>총 금액: <span id="total">0</span>원 (1장당 1,000원)</p>
+                
+                <button>구매하기</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
