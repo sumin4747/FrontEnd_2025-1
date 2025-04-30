@@ -2,7 +2,7 @@ const button = document.querySelector('.button');
 
 async function getCountryInfo() {
 
-    console.log("dkdkdkd");
+    
     const usercountryName = document.querySelector('#countryName').value;
     const result = document.getElementById('result');
 
@@ -34,7 +34,7 @@ async function getCountryInfo() {
         result.innerHTML = `
 
         <div>
-            <P><b>${usercountryName}</b> 수도: <b>${capital}</b></P>
+            <P><strong>${usercountryName}</strong> 수도: <strong>${capital}</strong></P>
             <img src="${flag}" alt="Flag of ${usercountryName}" width="150"></img>
         </div>
         `
