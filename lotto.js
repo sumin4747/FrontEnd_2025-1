@@ -8,3 +8,5 @@ function generateLottoNumbers(){
 
 
 }
+
+console.log(generateLottoNumbers())
